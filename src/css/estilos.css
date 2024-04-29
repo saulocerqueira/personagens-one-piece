@@ -11,7 +11,7 @@ main::after {
     min-height: 100vh;
     width: 80vw;
 
-    background: linear-gradient(90deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
+    background: linear-gradient(90deg, #000 10%, rgba(0, 0, 0, 0) 80%) no-repeat;
 }
 
 main .personagem {
@@ -52,7 +52,7 @@ main .personagem .imagem-personagem {
 .conteudo .descricao {
     color: #ffffff;
     font-family: "Rubik";
-    line-height: 24px;
+    line-height: 25px;
 }
 
 .conteudo .logo {
@@ -71,10 +71,8 @@ main .personagem .imagem-personagem {
     flex-direction: column;
     min-height: 100vh;
     width: 180px;
-    justify-content: center;
     align-items: center;
     gap: 10px;
-    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .botoes .botao {
